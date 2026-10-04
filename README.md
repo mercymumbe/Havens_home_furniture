@@ -4,7 +4,7 @@ This is a website for Havens Home Palace, a home goods store located in Nairobi,
 
 The company provides quality furniture, lighting and home accessories to make homes comfortable and beautiful.
 
-**live link**:https://github.com/mercymumbe/Havens_home_furniture.git
+**live link**:https://mercymumbe.github.io/Havens_home_furniture/
 
 ## Project Description
 
