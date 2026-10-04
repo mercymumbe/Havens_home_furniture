@@ -46,7 +46,7 @@
         <h2>Our Products</h2>
         <p>Explore some of our popular home products.</p>
       </div>
-      <!-- Filter products -->
+      <!-- Filter and sort products -->
       <div class="product-controls">
         <label for="category"> <strong>Category :</strong></label>
         <select id="category">
@@ -55,6 +55,22 @@
           <option value="lighting">Lighting</option>
           <option value="decor">Home Decor</option>
         </select>
+         <label for="sort">
+                            Sort By
+                        </label>
+
+                        <select id="sort" name="sort">
+                            <option value="featured">Featured</option>
+                            <option value="price-low">
+                                Price: Low to High
+                            </option>
+                            <option value="price-high">
+                                Price: High to Low
+                            </option>
+                            <option value="rating">
+                                Highest Rated
+                            </option>
+                        </select>
       </div>
 
       <!-- Product Grid -->
@@ -64,7 +80,7 @@
         <section>
           <article class="product-card" >
             <div class="product-image">
-              <img src="comfort sofa 1.jpg" alt="Modern sofa" width="300px" />
+              <img src="comfort sofa 1.jpg" alt="Modern sofa" loading="lazy" width="300px"/>
             </div>
             <div class="product-info">
               <p class="category">Furniture</p>
@@ -72,12 +88,21 @@
                 <p class="price">KSh 45,000</p>
                 <button class="add-cart">Add to Cart</button>
               </div>
+              <div class="rating"
+                                aria-label="4.5 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (4.5)
+                                </span>
               <br>
             </div>
           </article>
           <article class="product-card">
             <div class="product-image">
-              <img src="comfort sofa 2.jpg" alt="Modern sofa" width="300px" />
+              <img src="comfort sofa 2.jpg" alt="Modern sofa"loading="lazy" width="300px" />
             </div>
             <div class="product-info">
               <p class="category">Furniture</p>
@@ -85,12 +110,21 @@
                 <p class="price">KSh 32,000</p>
                 <button class="add-cart">Add to Cart</button>
               </div>
+              <div class="rating"
+                                aria-label="4.0 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (4.0)
+                                </span>
               <br>
             </div>
           </article>
           <article class="product-card">
             <div class="product-image">
-              <img src="comfort sofa 3.jpg" alt="Modern sofa" width="300px" />
+              <img src="comfort sofa 3.jpg" alt="Modern sofa" loading="lazy" width="300px" />
             </div>
             <div class="product-info">
               <p class="category">Furniture</p>
@@ -98,6 +132,15 @@
                 <p class="price">KSh 55,000</p>
                 <button class="add-cart">Add to Cart</button>
               </div>
+              <div class="rating"
+                                aria-label="5 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (5)
+                                </span>
               <br>
             </div>
           </article>
@@ -108,7 +151,7 @@
         <Section>
           <article class="product-card">
             <div class="product-image">
-              <img src="Table lamp 1.jpg" alt="Modern table lamp" width="200px" />
+              <img src="Table lamp 1.jpg" alt="Modern table lamp" loading="lazy" width="200px" />
             </div>
             <div class="product-info">
               <p class="category">Lighting</p>
@@ -116,12 +159,21 @@
                 <p class="price">KSh 3,500</p>
                 <button class="add-cart">Add to Cart</button>
               </div>
+              <div class="rating"
+                                aria-label="4.5 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (4.5)
+                                </span>
               <br>
             </div>
           </article>
           <article class="product-card">
             <div class="product-image">
-              <img src="table lamp 2.jpg" alt="Modern table lamp" width="200px" />
+              <img src="table lamp 2.jpg" alt="Modern table lamp" loading="lazy" width="200px" />
             </div>
             <div class="product-info">
               <p class="category">Lighting</p>
@@ -129,12 +181,21 @@
                 <p class="price">KSh 1,500</p>
                 <button class="add-cart">Add to Cart</button>
               </div>
+              <div class="rating"
+                                aria-label="3 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (3)
+                                </span>
               <br>
             </div>
           </article>
           <article class="product-card">
             <div class="product-image">
-              <img src="table lamp 3.jpg" alt="Modern table lamp" width="200px" />
+              <img src="table lamp 3.jpg" alt="Modern table lamp"loading="lazy" width="200px" />
             </div>
             <div class="product-info">
               <p class="category">Lighting</p>
@@ -142,12 +203,21 @@
                 <p class="price">KSh 3,000</p>
                 <button class="add-cart">Add to Cart</button>
               </div>
+              <div class="rating"
+                                aria-label="4.5 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (4.5)
+                                </span>
               <br>
             </div>
           </article>
           <article class="product-card">
             <div class="product-image">
-              <img src="table lamp 4.jpg" alt="Modern table lamp" width="200px" />
+              <img src="table lamp 4.jpg" alt="Modern table lamp" loading="lazy" width="200px" />
             </div>
             <div class="product-info">
               <p class="category">Lighting</p>
@@ -160,7 +230,7 @@
           </article>
           <article class="product-card">
             <div class="product-image">
-              <img src="table lamp 5.jpg" alt="Modern table lamp" width="200px" />
+              <img src="table lamp 5.jpg" alt="Modern table lamp" loading="lazy"width="200px" />
             </div>
             <div class="product-info">
               <p class="category">Lighting</p>
@@ -168,12 +238,21 @@
                 <p class="price">KSh 3,800</p>
                 <button class="add-cart">Add to Cart</button>
               </div>
+              <div class="rating"
+                                aria-label="3.5 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (3.5)
+                                </span>
               <br>
             </div>
           </article>
           <article class="product-card">
             <div class="product-image">
-              <img src="table lamp 6.jpg" alt="Modern table lamp" width="200px" />
+              <img src="table lamp 6.jpg" alt="Modern table lamp"loading="lazy" width="200px" />
             </div>
             <div class="product-info">
               <p class="category">Lighting</p>
@@ -181,6 +260,15 @@
                 <p class="price">KSh 4,500</p>
                 <button class="add-cart">Add to Cart</button>
               </div>
+              <div class="rating"
+                                aria-label="4.5 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (4.5)
+                                </span>
             </div>
           </article>
         </Section>
@@ -189,7 +277,7 @@
         <h3> Dining Tables</h3>
         <section><article class="product-card">
           <div class="product-image">
-            <img src="dining table 1.jpg" alt="dining table" width="300px" />
+            <img src="dining table 1.jpg" alt="dining table"loading="lazy" width="300px" />
           </div>
           <div class="product-info">
             <p class="category">Furniture</p>
@@ -197,12 +285,21 @@
               <p class="price">KSh 18,000</p>
               <button class="add-cart">Add to Cart</button>
             </div>
+            <div class="rating"
+                                aria-label="4 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (4)
+                                </span>
             <br>
           </div>
         </article>
         <article class="product-card">
           <div class="product-image">
-            <img src="dining table 2.jpg" alt="dining table" width="300px" />
+            <img src="dining table 2.jpg" alt="dining table"loading="lazy" width="300px" />
           </div>
           <div class="product-info">
             <p class="category">Furniture</p>
@@ -210,12 +307,21 @@
               <p class="price">KSh 18,500</p>
               <button class="add-cart">Add to Cart</button>
             </div>
+            <div class="rating"
+                                aria-label="4.5 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (4.5)
+                                </span>
             <br>
           </div>
         </article>
         <article class="product-card">
           <div class="product-image">
-            <img src="dining table 3.jpg" alt="dining table" width="300px" />
+            <img src="dining table 3.jpg" alt="dining table"loading="lazy" width="300px" />
           </div>
           <div class="product-info">
             <p class="category">Furniture</p>
@@ -223,12 +329,21 @@
               <p class="price">KSh 15,700</p>
               <button class="add-cart">Add to Cart</button>
             </div>
+            <div class="rating"
+                                aria-label="5 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (5)
+                                </span>
             <br>
           </div>
         </article>
         <article class="product-card">
           <div class="product-image">
-            <img src="dining table 4.jpg" alt="dining table" width="300px" />
+            <img src="dining table 4.jpg" alt="dining table"loading="lazy" width="300px" />
           </div>
           <div class="product-info">
             <p class="category">Furniture</p>
@@ -236,6 +351,15 @@
               <p class="price">KSh 11,200</p>
               <button class="add-cart">Add to Cart</button>
             </div>
+            <div class="rating"
+                                aria-label="4.5 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (4.5)
+                                </span>
             <br>
           </div>
         </article>
@@ -246,7 +370,7 @@
         <h3>Ceramic Flower Vase</h3>
        <section><article class="product-card">
           <div class="product-image">
-            <img src="flower vase 1.jpg" alt="Ceramic flower vase" width="300px" />
+            <img src="flower vase 1.jpg" alt="Ceramic flower vase"loading="lazy" width="300px" />
           </div>
           <div class="product-info">
             <p class="category">Home Decor</p>
@@ -254,12 +378,21 @@
               <p class="price">KSh 2,500</p>
               <button class="add-cart">Add to Cart</button>
             </div>
+            <div class="rating"
+                                aria-label="3.5 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (3.5)
+                                </span>
             <br>
           </div>
         </article>
         <article class="product-card">
           <div class="product-image">
-            <img src="flower vase 2.jpg" alt="Ceramic flower vase" width="300px" />
+            <img src="flower vase 2.jpg" alt="Ceramic flower vase"loading="lazy" width="300px" />
           </div>
           <div class="product-info">
             <p class="category">Home Decor</p>
@@ -267,12 +400,21 @@
               <p class="price">KSh 2,300</p>
               <button class="add-cart">Add to Cart</button>
             </div>
-            br
+            <div class="rating"
+                                aria-label="5 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (5)
+                                </span>
+            <br>
           </div>
         </article>
         <article class="product-card">
           <div class="product-image">
-            <img src="flower vase 3.jpg" alt="Ceramic flower vase" width="300px" />
+            <img src="flower vase 3.jpg" alt="Ceramic flower vase"loading="lazy" width="300px" />
           </div>
           <div class="product-info">
             <p class="category">Home Decor</p>
@@ -280,12 +422,21 @@
               <p class="price">KSh 3,500</p>
               <button class="add-cart">Add to Cart</button>
             </div>
+            <div class="rating"
+                                aria-label="4.0 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (4.0)
+                                </span>
             <br>
           </div>
         </article>
         <article class="product-card">
           <div class="product-image">
-            <img src="flower vase 4.jpg" alt="Ceramic flower vase" width="300px" />
+            <img src="flower vase 4.jpg" alt="Ceramic flower vase"loading="lazy" width="300px" />
           </div>
           <div class="product-info">
             <p class="category">Home Decor</p>
@@ -293,6 +444,15 @@
               <p class="price">KSh 2,790</p>
               <button class="add-cart">Add to Cart</button>
             </div>
+            <div class="rating"
+                                aria-label="4 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (4)
+                                </span>
             <br>
           </div>
         </article>
@@ -304,7 +464,7 @@
         <section>
           <article class="product-card">
           <div class="product-image">
-            <img src="bed 1.jpg" alt="Modern bed"  width="300px"/>
+            <img src="bed 1.jpg" alt="Modern bed" loading="lazy" width="300px"/>
           </div>
           <div class="product-info">
             <p class="category">Home Furniture</p>
@@ -312,12 +472,22 @@
               <p class="price">KSh 20,500</p>
               <button class="add-cart">Add to Cart</button>
             </div>
+            <div class="rating"
+                                aria-label="4.0 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (4.0)
+                                </span>
+
             <br>
           </div>
         </article>
       <article class="product-card">
           <div class="product-image">
-            <img src="bed 2.jpg" alt="Modern bed"  width="300px"/>
+            <img src="bed 2.jpg" alt="Modern bed"loading="lazy"  width="300px"/>
           </div>
           <div class="product-info">
             <p class="category">Home Furniture</p>
@@ -325,12 +495,21 @@
               <p class="price">KSh 17,500</p>
               <button class="add-cart">Add to Cart</button>
             </div>
+            <div class="rating"
+                                aria-label="3.5 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (3.5)
+                                </span>
             <br>
           </div>
         </article>
       <article class="product-card">
           <div class="product-image">
-            <img src="bed 3.jpg" alt="Modern bed"  width="300px"/>
+            <img src="bed 3.jpg" alt="Modern bed"loading="lazy"  width="300px"/>
           </div>
           <div class="product-info">
             <p class="category">Home Furniture</p>
@@ -338,12 +517,21 @@
               <p class="price">KSh 10,500</p>
               <button class="add-cart">Add to Cart</button>
             </div>
+            <div class="rating"
+                                aria-label="5.0 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (5.0)
+                                </span>
             <br>
           </div>
         </article>
       <article class="product-card">
           <div class="product-image">
-            <img src="bed 4.jpg" alt="Modern bed"  width="300px"/>
+            <img src="bed 4.jpg" alt="Modern bed"loading="lazy"  width="300px"/>
           </div>
           <div class="product-info">
             <p class="category">Home Furniture</p>
@@ -351,12 +539,21 @@
               <p class="price">KSh 18,500</p>
               <button class="add-cart">Add to Cart</button>
             </div>
+            <div class="rating"
+                                aria-label="4.5 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (4.5)
+                                </span>
             <br>
           </div>
         </article>
       <article class="product-card">
           <div class="product-image">
-            <img src="bed 5.jpg" alt="Modern bed"  width="300px"/>
+            <img src="bed 5.jpg" alt="Modern bed" loading="lazy" width="300px"/>
           </div>
           <div class="product-info">
             <p class="category">Home Furniture</p>
@@ -364,6 +561,15 @@
               <p class="price">KSh 30,500</p>
               <button class="add-cart">Add to Cart</button>
             </div>
+            <div class="rating"
+                                aria-label="2.5 out of 5 stars">
+
+                                <span>★★★★</span>
+                                <span class="empty-star">★</span>
+
+                                <span class="rating-number">
+                                    (2.5)
+                                </span>
             <br>
           </div>
         </article>
