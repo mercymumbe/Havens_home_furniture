@@ -76,7 +76,7 @@ Wait a few minutes for the website to be published.
 
 ![image of home page](image/home_page_screenshot.png)
 ![image of morden sofa](image/product_page_Screenshot.png)
-![image of table lamp](iimage/product_page.png)
+![image of table lamp](image/product_page.png)
 ![image of dining table](image/product_page_2.png)
 
 
