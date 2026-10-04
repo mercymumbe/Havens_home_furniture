@@ -47,7 +47,7 @@ Visual Studio Code
 AI
 
 ## Project Structure
-![image of project structure](Screenshot 2026-10-04 111346.png)
+![image of project structure](image/project structure_page.png)
 
 ## Setup Instructions
 
