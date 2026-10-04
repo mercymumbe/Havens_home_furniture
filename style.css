@@ -27,5 +27,14 @@ main a{
   text-decoration: none;
 }
 h2{
-  color: blueviolet;
+  color: rgb(207, 136, 22);
+}
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+
 }
