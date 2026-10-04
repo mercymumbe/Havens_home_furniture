@@ -4,6 +4,8 @@ This is a website for Havens Home Palace, a home goods store located in Nairobi,
 
 The company provides quality furniture, lighting and home accessories to make homes comfortable and beautiful.
 
+**live link**:https://github.com/mercymumbe/Havens_home_furniture.git
+
 ## Project Description
 
 Havens Home Palace is a simple online home goods store website that allows customers to view different home products, their prices and categories.
@@ -45,48 +47,11 @@ Visual Studio Code
 AI
 
 ## Project Structure
-Havens-Home-Palace/
-│
-├── index.html
-├── style.css
-│
-├── images/
-│   ├── comfort sofa 1.jpg
-│   ├── comfort sofa 2.jpg
-│   ├── comfort sofa 3.jpg
-│   ├── Table lamp 1.jpg
-│   ├── table lamp 2.jpg
-│   ├── table lamp 3.jpg
-│   ├── table lamp 4.jpg
-│   ├── table lamp 5.jpg
-│   ├── table lamp 6.jpg
-│   ├── dining table 1.jpg
-│   ├── dining table 2.jpg
-│   ├── dining table 3.jpg
-│   ├── dining table 4.jpg
-│   ├── flower vase 1.jpg
-│   ├── flower vase 2.jpg
-│   ├── flower vase 3.jpg
-│   ├── flower vase 4.jpg
-│   ├── bed 1.jpg
-│   ├── bed 2.jpg
-│   ├── bed 3.jpg
-│   ├── bed 4.jpg
-│   ├── bed 5.jpg
-│   ├── screenshort.png
-│   ├── home_pg_image.png
-│   ├── products_pg_image.png
-│   ├── about_page_image.png
-│   └── contact_page_image.png
-│
-└── README.md
-
-
+![image of project structure](Screenshot 2026-10-04 111346.png)
 
 ## Setup Instructions
 
 ### Run it on your computer
-
 Clone the repository.
 
 https://github.com/mercymumbe/Havens_home_furniture.git
