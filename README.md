@@ -47,7 +47,7 @@ Visual Studio Code
 AI
 
 ## Project Structure
-![image of project structure](image/project structure_page.png)
+![image of project structure](image/project_structure_page.png)
 
 ## Setup Instructions
 
@@ -74,11 +74,10 @@ Wait a few minutes for the website to be published.
 
 ## Screenshots
 
-![image of home page](Screenshot 2026-10-04 085438.png)
-![image of morden sofa](Screenshot 2026-10-04 085532.png)
-![image of table lamp](images/Screenshot 2026-10-04 085614.png)
-![image of dining table](Screenshot 2026-10-04 085649.png)
-![image of a bed](Screenshot 2026-10-04 090704.png)
+![image of home page](image/home_page_screenshot.png)
+![image of morden sofa](image/product_page_Screenshot.png)
+![image of table lamp](iimage/product_page.png)
+![image of dining table](image/product_page_2.png)
 
 
 
